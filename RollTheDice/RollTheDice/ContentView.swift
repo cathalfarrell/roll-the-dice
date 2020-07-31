@@ -8,21 +8,38 @@
 
 import SwiftUI
 
+struct Score: Hashable {
+    let id = UUID()
+    var timeScored = Date()
+    var result: Int
+}
+
+class Results: ObservableObject {
+    @Published var scores: [Score]
+
+    init() {
+        self.scores = [Score]()
+    }
+}
+
 struct ContentView: View {
+
+    var results = Results()
+
     var body: some View {
         TabView {
-            Text("Roll The Dice")
+            RollView()
                 .tabItem {
                     Image(systemName: "circle.grid.hex")
                     Text("Roll The Dice")
                 }
-            Text("Show the scores")
+            ScoresView()
                 .tabItem {
                     Image(systemName: "star.circle.fill")
                     Text("Scores")
                 }
         }
-
+        .environmentObject(results)
     }
 }
 
