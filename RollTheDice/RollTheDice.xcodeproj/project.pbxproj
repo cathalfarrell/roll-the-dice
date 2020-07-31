@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C19C34E24D449F0004AC1EE /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C19C34D24D449F0004AC1EE /* DiceView.swift */; };
 		8C7C141824D2F9CC0096E060 /* RollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C141724D2F9CC0096E060 /* RollView.swift */; };
 		8C7C141A24D2F9F80096E060 /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C141924D2F9F80096E060 /* ScoresView.swift */; };
 		8CE3720E24D04370007F2F49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3720D24D04370007F2F49 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C19C34D24D449F0004AC1EE /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		8C7C141724D2F9CC0096E060 /* RollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollView.swift; sourceTree = "<group>"; };
 		8C7C141924D2F9F80096E060 /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
 		8CE3720A24D04370007F2F49 /* RollTheDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollTheDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 				8CE3720D24D04370007F2F49 /* AppDelegate.swift */,
 				8CE3720F24D04370007F2F49 /* SceneDelegate.swift */,
 				8CE3721424D04370007F2F49 /* ContentView.swift */,
+				8C19C34D24D449F0004AC1EE /* DiceView.swift */,
 				8C7C141724D2F9CC0096E060 /* RollView.swift */,
 				8C7C141924D2F9F80096E060 /* ScoresView.swift */,
 				8CE3721624D04374007F2F49 /* Assets.xcassets */,
@@ -160,6 +163,7 @@
 				8CE3721024D04370007F2F49 /* SceneDelegate.swift in Sources */,
 				8C7C141824D2F9CC0096E060 /* RollView.swift in Sources */,
 				8CE3721524D04370007F2F49 /* ContentView.swift in Sources */,
+				8C19C34E24D449F0004AC1EE /* DiceView.swift in Sources */,
 				8CE3721324D04370007F2F49 /* RollTheDice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
